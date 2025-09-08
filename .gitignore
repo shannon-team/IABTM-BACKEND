@@ -1,0 +1,5 @@
+node_modules/
+/.env
+/src/controllers/spotifyController.py
+/src/controllers/spotifyController.txt
+.DS_Store
