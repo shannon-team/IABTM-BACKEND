@@ -12,7 +12,7 @@ const sendContactEmail = async (name, email, subject, message) => {
     const emailPassword = process.env.EMAIL_PASSWORD;
     
     try {
-        const transporter = nodemailer.createTransporter({
+    const transporter = nodemailer.createTransport({
             host: 'smtp.gmail.com',
             port: 587,
             secure: false,
